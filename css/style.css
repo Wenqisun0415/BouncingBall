@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#content {
+    position: absolute;
+    width: 100%;
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    opacity: 0;
+    transition: all 2s ease-in-out;
+    display: block;
+}
+
+#title span {
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: Rancho;
+}
+
+#discription {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    opacity: 0;
+    transition: all 2s ease-in-out;
+    display: block;
+}
+
+#discription p {
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: auto;
+    background-color: black;
+    font-size: 40px;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+#buttonHolder {
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    transition: all 2s ease-in-out;
+    margin-top: 50px;
+    display: block;
+}
+
+#startButton {
+    border: none;
+    font-size: 30px;
+    font-family: Calibri;
+    padding: 7px 20px;
+    text-align: center;
+    cursor: pointer;
+    background: black;
+    border-radius: 30px;
+    color: orange;
+    transition: all 1s linear;
+}
+
+#startButton:hover {
+    color: black;
+    background-color: orange;
+    transition: all 1s linear;
+}
+
+#canvasHolder {
+    margin: 100px 30px;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    display: none;
+    transition: display 1s linear;
+}
+
+#myCanvas {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(180, 180, 180);
+}
+
+#particles-js {
+    height: 100%;
+    /*background-color: rosybrown;*/
+    background-color: #252020;
+}
